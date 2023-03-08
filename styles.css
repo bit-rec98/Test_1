@@ -2,3 +2,9 @@ body{
     background-color: gray; 
     font-family: sans-serif;
 }
+
+button{
+    color: blue;
+    font-family: Arial, Helvetica;
+    font-size: 20px;
+}
