@@ -1,4 +1,4 @@
-
+activate()
 function activate(){
     document.getElementById("button").addEventListener("click", function(){
         confirmation();
@@ -6,9 +6,9 @@ function activate(){
 }
 
 function confirmation(){
-confirmation = confirm("¿Acepta?");
+confirmationAppearance = confirm("¿Acepta?");
 
-if(confirmation == true){
+if(confirmationAppearance == true){
     console.log("¡Aceptado!")
 } else {
     console.log("¡No acepta!")
