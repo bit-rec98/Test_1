@@ -1,8 +1,6 @@
-let element = document.getElementsByTagName("button")
-
 
 function activate(){
-    element.addEventListener("click", function(){
+    document.getElementById("button").addEventListener("click", function(){
         confirmation();
     })
 }
